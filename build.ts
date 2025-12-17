@@ -9,7 +9,7 @@ if ('elysia' in pack.dependencies)
 
 const external = ['@sinclair/typebox', 'file-type']
 
-await $`rm -rf dist`
+//await $`rm -rf dist`
 
 await build({
 	entry: ['src/**/*.ts'],

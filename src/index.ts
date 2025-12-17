@@ -13,7 +13,7 @@ import type { Context, PreContext } from './context'
 
 import { t } from './type-system'
 import { mergeInference, sucrose, type Sucrose } from './sucrose'
-
+console.log(t)
 import type { WSLocalHook } from './ws/types'
 
 import { BunAdapter } from './adapter/bun/index'
